@@ -1,0 +1,13 @@
+{
+  "name": "webpack-issue6796-ex",
+  "version": "0.0.1",
+  "scripts": {
+    "conf1": "webpack --verbose --config webpack.config-1.js",
+    "conf2": "webpack --verbose --config webpack.config-2.js",
+    "conf3": "webpack --verbose --config webpack.config-3.js"
+  },
+  "devDependencies": {
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.12"
+  }
+}
